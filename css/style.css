@@ -787,7 +787,7 @@ a:focus {
 }
 
 .client_section {
-  background-image: url(../images/client-bg.jpg);
+  background-image: url(../images/discover-beaches.jpeg);
   background-size: cover;
   background-attachment: fixed;
 }
@@ -1046,6 +1046,30 @@ a:focus {
 
 .contact_section .map_container .map #googleMap {
   height: 100%;
+}
+
+.faq-item {
+  /* height: 60px; */
+  height: fit-content;
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+.faq-question {
+  color: black;
+  font-weight: 600;
+}
+
+.faq-answer {
+  color: #333333a1;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+@media (max-width: 576px) {
+  .faq-item {
+    height: fit-content;
+  }
 }
 
 .info_section {
